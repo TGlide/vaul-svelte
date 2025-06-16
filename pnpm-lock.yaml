@@ -65,6 +65,9 @@ importers:
 
   packages/vaul-svelte:
     dependencies:
+      bits-ui:
+        specifier: ^1.1.0
+        version: 1.1.0(svelte@5.19.6)
       runed:
         specifier: ^0.23.2
         version: 0.23.2(svelte@5.19.6)
@@ -108,9 +111,6 @@ importers:
       autoprefixer:
         specifier: ^10.4.16
         version: 10.4.20(postcss@8.4.47)
-      bits-ui:
-        specifier: ^1.1.0
-        version: 1.1.0(svelte@5.19.6)
       jsdom:
         specifier: ^24.1.0
         version: 24.1.1
